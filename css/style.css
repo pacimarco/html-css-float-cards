@@ -21,7 +21,8 @@ p{
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
-    width: 1000;
+    width: 900px;
+    font-size: 14px;
 }
 
 .container{
@@ -37,7 +38,6 @@ p{
 
 .card1{
     width: 30%;
-    border: solid 1px black;
     height: 80px;
     float: left;
     background-color: black;
@@ -46,7 +46,6 @@ p{
 
 .card2{
     width: 30%;
-    border: solid 1px black;
     height: 80px;
     float: left;
     background-color: black;
@@ -55,7 +54,6 @@ p{
 
 .card3{
     width: 30%;
-    border: solid 1px black;
     height: 80px;
     float: left;
     background-color: black;
