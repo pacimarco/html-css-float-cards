@@ -4,19 +4,29 @@
     box-sizing: border-box;
 }
 
+main{
+    margin: auto;
+    font-style: 'Paytone One', sans-serif;
+}
+
 h1{
     color:rgb(221, 21, 95);
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
 p{
     text-align: center;
     margin: auto;
+    margin-bottom: 20px;
+    width: 1000;
 }
 
 .container{
     margin: auto;
-    max-width: 1170px;
+    width: 1000px;
     height: 200px;
 }
 
@@ -33,6 +43,7 @@ p{
     background-color: black;
     margin: calc(10px/3);
 }
+
 .card2{
     width: 30%;
     border: solid 1px black;
@@ -56,6 +67,7 @@ p{
     display: table;
     clear: both;
 }
+
 .img{
 height: 100%;
 float: left;
@@ -64,20 +76,25 @@ float: left;
 
 .nome{
     color: white;
-    width: 60%;
-    float: left;
-    font-size: 15px;
+    max-width: 60%;
+    font-size: 13px;
+    padding: 10px;
+    position: relative;
+    left: 8px;
+    
 }
 
 .ruolo{
     color: white;
-    font-size: 12px;
-    
+    font-size: 10px;
+    position: relative;
+    left: 8px;
 }
 
 .email{
     color: rgb(55, 172, 200);
-    font-size: 12px;
+    font-size: 10px;
+    margin-left: 8px;
     
 }
 
