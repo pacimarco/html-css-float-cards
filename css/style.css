@@ -29,6 +29,7 @@ p{
     margin: auto;
     width: 1000px;
     height: 200px;
+    
 }
 
 .riga1{
@@ -42,6 +43,7 @@ p{
     float: left;
     background-color: black;
     margin: calc(10px/3);
+    
 }
 
 .card2{
@@ -50,6 +52,7 @@ p{
     float: left;
     background-color: black;
     margin: calc(10px/3)
+    
 }
 
 .card3{
@@ -58,6 +61,7 @@ p{
     float: left;
     background-color: black;
     margin: calc(10px/3)
+    
 }
 
 .clearfix::after{
@@ -93,7 +97,7 @@ float: left;
     color: rgb(55, 172, 200);
     font-size: 10px;
     margin-left: 8px;
-    
+    text-decoration: none;
 }
 
 
